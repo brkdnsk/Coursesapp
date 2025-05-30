@@ -12,7 +12,7 @@ export default function App(){
             <Stack.Navigator initialRouteName="Home">
                 <Stack.Screen name="Anasayfa" component={HomeScreen}/>
                 <Stack.Screen name="Kurslarım" component={CoursesScreen}/>
-                <Stack.Screen name="KursBilgilerim" component={CoursesInformation}/>
+                <Stack.Screen name="Kurs Bilgilerim" component={CoursesInformation}/>
             </Stack.Navigator>
         </NavigationContainer>
     );

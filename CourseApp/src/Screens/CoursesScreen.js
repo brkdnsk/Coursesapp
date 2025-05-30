@@ -1,5 +1,8 @@
-import { View, Text ,FlatList} from 'react-native'
+import { View, Text ,FlatList, StyleSheet} from 'react-native'
 import React from 'react'
+import {NavigationContainer} from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+const Stack= createNativeStackNavigator();
 
 export default function HomeScreen() {
   
@@ -22,3 +25,12 @@ export default function HomeScreen() {
     />
   );
 }
+
+const styles = StyleSheet.create({
+    content:{
+        fontSize:20,
+        backgroundColor:'yellow',
+        marginVertical:10,
+        padding:20,
+    }
+});
